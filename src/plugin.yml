@@ -1,0 +1,14 @@
+name: Fortune 
+author: null_ptr
+version: 0.1
+description: Reads you a random fortune upon login. 
+main: org.fortune.null_ptr.FortuneMain
+Todo: Add features (it only does one thing - taking requests)
+commands:
+   lfortune:
+      description: Toggles Login Fortunes on / off
+      usage: /lfortune 
+   fortune:
+      description: Reads a fortune
+      usage: /fortune 
+       
